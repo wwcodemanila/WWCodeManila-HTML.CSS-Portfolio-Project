@@ -1,0 +1,21 @@
+.portfolio-section__container {
+  position: relative;
+  height: 500px;
+  background-color: $white-900;
+  overflow: hidden;
+}
+
+.portfolio-section {
+  width: 800px;
+  padding: 50px;
+}
+
+.portfolio-section__image {
+  margin: 20px 20px 0 10px;
+  width: 600px;
+  bottom: -50px;
+
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  min-height: 575px;
+  background: url('../img/bluebg.png');
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__content {
+  text-align: right;
+  width: 85%;
+  position: absolute;
+  top: 140px;
+  right: 100px;
+
+  h1 {
+    font-family: $font-secondary;
+    font-size: $size-xh;
+    font-weight: 400;
+    color: $white-900;
+  }
+
+  p {
+    font-size: $size-xxl;
+    color: $white-900;
+    line-height: 1.7rem;
+
+    span {
+      font-size: 1.9rem;
+      font-family: $font-secondary;
+    }
+  }
+
+  .button {
+    margin-top: 50px;
+  }
+}
+
+
+.hero__image {
+  position: absolute;
+  bottom: -200px;
+  right: auto;
+  left: 100px;
+
+  img {
+    width: 100%;
+  }
+}
