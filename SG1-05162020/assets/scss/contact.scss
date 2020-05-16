@@ -1,0 +1,60 @@
+.contact-section__container {
+  position: relative;
+  height: 300px;
+  background-color: $white-500;
+  overflow: hidden;
+}
+
+.contact-section {
+  max-width: 265px;
+  margin: 0 auto 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+
+  a {
+    display: inline-block;
+    color: $gray-900;
+    padding: 10px 14px;
+    border: 3px solid $gray-900;
+    border-radius: 100%;
+    transition: all 400ms ease-out;
+  }
+
+  i {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+  }
+}
+
+.contact-section a:hover {
+  cursor: pointer;
+}
+
+.contact-section .dribbble:hover {
+  color: #ea4c89;
+  border: 3px solid #ea4c89;
+}
+
+.contact-section .facebook:hover {
+  color: #3b5998;
+  border: 3px solid #3b5998;
+}
+
+.contact-section .twitter:hover {
+  color: #00aced;
+  border: 3px solid #00aced;
+}
+
+.contact-section .paper-plane:hover {
+  color: $green-500;
+  border: 3px solid $green-500;
+}

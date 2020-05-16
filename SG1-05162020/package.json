@@ -1,0 +1,15 @@
+{
+  "name": "perthv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "author": "Anne Jizrelle Jose",
+  "license": "ISC"
+}
